@@ -3,38 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple File Download Site</title>
+  <title>The Legion of Fools - Hangout & Game Server</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
       text-align: center;
-      background-color: #f5f5f5;
-      color: #333;
+      background-color: #2b2d42;
+      color: #edf2f4;
       padding: 20px;
     }
     h1 {
-      font-size: 2rem;
+      font-size: 3rem;
       margin-bottom: 1rem;
+      color: #8d99ae;
     }
     .file-container {
       display: inline-block;
       text-align: left;
-      background: #ffffff;
+      background: #1d3557;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      margin: 0 auto;
     }
     .file-item {
       padding: 10px;
-      margin: 5px 0;
-      border: 1px solid #ddd;
+      margin: 10px 0;
+      border: 1px solid #8d99ae;
       border-radius: 5px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background-color: #457b9d;
     }
     .download-btn {
-      background-color: #007bff;
+      background-color: #ef233c;
       color: white;
       border: none;
       padding: 8px 12px;
@@ -43,27 +47,29 @@
       text-decoration: none;
     }
     .download-btn:hover {
-      background-color: #0056b3;
+      background-color: #d90429;
+    }
+    .description {
+      margin: 20px 0;
+      font-size: 1.2rem;
+      color: #8d99ae;
     }
   </style>
 </head>
 <body>
-  <h1>Download Files</h1>
+  <h1>The Legion of Fools</h1>
+  <p class="description">Welcome to The Legion of Fools website!</p>
   <div class="file-container">
     <div class="file-item">
-      <span>Sample File 1</span>
-      <a href="files/sample1.txt" download class="download-btn">Download</a>
-    </div>
-    <div class="file-item">
-      <span>Sample File 2</span>
-      <a href="files/sample2.pdf" download class="download-btn">Download</a>
+      <span>Legion SMP Season 2 World File</span>
+      <a href="files/minecraft-modpack.zip" download class="download-btn">Download</a>
     </div>
   </div>
 
   <script>
     // Helper for future dynamic enhancements
     document.addEventListener("DOMContentLoaded", function () {
-      console.log("Download site ready.");
+      console.log("The Legion of Fools download site is ready.");
     });
   </script>
 </body>
